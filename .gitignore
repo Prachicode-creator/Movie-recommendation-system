@@ -1,0 +1,9 @@
+**pycache**/
+*.pyc
+.venv/
+env/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+similarity.pkl
