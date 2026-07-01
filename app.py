@@ -4,7 +4,7 @@ import requests
 
 movies = pickle.load(open('movies.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
-API_KEY ="your_tmdb_api_key"
+API_KEY = st.secrets["TMDB_API_KEY"]
 st.set_page_config(
     page_title="Movie Recommendation System",
     page_icon="🎬",
