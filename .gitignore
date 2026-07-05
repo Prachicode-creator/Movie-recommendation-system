@@ -6,4 +6,3 @@ env/
 .idea/
 .DS_Store
 Thumbs.db
-similarity.pkl

@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import requests
 
+
 movies = pickle.load(open('movies.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 API_KEY = st.secrets["TMDB_API_KEY"]
